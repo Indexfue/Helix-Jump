@@ -17,7 +17,7 @@ public class BallJumper : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent<PlatformSegment>(out PlatformSegment segment))
         {
-            _rigidbody.velocity = Vector3.zero;
+            _rigidbody.velocity = new Vector3();
             _rigidbody.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
         }
     }

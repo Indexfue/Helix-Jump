@@ -49,6 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe7cb87918020a48ab7ad47c5f15db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _breakForce: 500
+  _breakRadius: 2000
   _ball: {fileID: -6243519069989237096, guid: b6d7e62485c09104eb57343fc497e3b4, type: 3}
   _startPoint: {fileID: 5892812894041092352}
 --- !u!1 &2530708564767132144

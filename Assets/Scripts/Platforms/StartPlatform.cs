@@ -10,6 +10,6 @@ public class StartPlatform : Platform
 
     private void Awake()
     {
-        Instantiate(_ball, _startPoint);
+        Instantiate(_ball, _startPoint.position, Quaternion.identity);
     }
 }
