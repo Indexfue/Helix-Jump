@@ -21,7 +21,7 @@ public class TowerBuilder : MonoBehaviour
     public float BeamScaleY => _levelCount / 2f + _borderPlatformAdditionalScale + _beamAdditionalScale / 2;
     public float PlatformScaleY => 1 / BeamScaleY;
 
-    private void Start()
+    private void Awake()
     {
         Build();
     }
